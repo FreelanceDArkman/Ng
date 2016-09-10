@@ -1,0 +1,21 @@
+
+@import "compass/css3/font-face";
+@import "compass/css3/border-radius";
+
+
+@mixin blcok-config {
+    @include breakpoint(mobile){
+         margin-top: 60px !important;
+    }
+    
+    
+    @include breakpoint(tablet){
+         margin-top: 60px !important;
+    }
+    
+    @include breakpoint(desktop){
+//        border-left: 1px solid #e5e2e2;
+      margin-top: -60px !important;
+        
+    }
+}

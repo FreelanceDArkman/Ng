@@ -1,0 +1,62 @@
+@import "compass/css3/font-face";
+
+@import "themes/font";
+
+
+
+$font-stack:    Circular!important;
+
+// body{
+// 	font-size: 22px !important;
+// 	 font-family: $font-stack;
+// 	 a,h1,h2,h3,h4,div{
+// 	 	font-family: $font-stack;
+
+// 	 }
+// }
+
+
+.full{
+//    font-size: 1.4em !important;
+//    font-family: $font-stack;
+}
+
+.flex-direction-nav {
+	
+		li{
+			line-height: 40px !important;
+
+			a{
+				width: 40px !important;
+				height: 55px !important;
+				
+			}
+
+		}
+	
+
+}
+
+.slider8{
+	// height:300px;
+}
+
+.flexslider {
+	  .slides {
+			  li{
+				  span{
+				  	color: #447a92;
+				  	font-size: 24px;
+				  	font-weight: bold;
+				  	font-family: $font-stack;
+				  	margin-top: 5px;
+					text-align: center;
+					display: block;
+  					width: 100%;
+
+				}
+			}
+		} 
+	}
+
+

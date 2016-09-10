@@ -1,0 +1,38 @@
+
+@import "frameworks/media_breakpoint";
+.about-me {
+	
+	h2 {margin: 0;
+	font-size:2.0em;
+	text-transform: uppercase;}
+
+	p{
+		text-indent: 30px;
+	}
+}
+
+.about-main-pic{
+	img{
+		margin-top: 40px;
+	}
+}
+
+.owl-item{
+	.item{
+
+		 float: left;
+		
+	}
+}
+
+@include breakpoint(mobile){ 
+.about-me {
+	margin-top: 10px;
+}
+
+} 
+	
+
+	
+
+

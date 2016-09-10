@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="search">
+	<name>Search - contentseo</name>
+	<author>Joomla! Project</author>
+	<creationDate>November 2008</creationDate>
+	<copyright>Copyright http://www.eboga.org</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>joeguo@gmail.com</authorEmail>
+	<authorUrl>http://www.eboga.org</authorUrl>
+	<version>1.5</version>
+	<description>It is based on the content search plugin, and do some improvement on the SEO, including dynamic generate search page's tilte,meta description, meta keywords with the search results.</description>
+	<files>
+		<filename plugin="contentseo">contentseo.php</filename>
+	</files>
+	<params>
+		<param name="search_limit" type="text" size="5" default="50" label="Search Limit" description="Number of Search items to return"/>
+		<param name="seo_limit" type="text" size="5" default="5" label="SEO Item Limit" description="Number of Search items titles used as page tile"/>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="search_content" type="radio" default="1" label="Content Items" description="Search Content Items?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="search_uncategorised" type="radio" default="1" label="Uncategorised Content" description="Search Uncategorised Content?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="search_archived" type="radio" default="1" label="Archived Content" description="Search Archived Content?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+</install>

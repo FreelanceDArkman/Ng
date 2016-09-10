@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metafile version="1.5" client="administrator">
+    <name>Thai (ภาษาไทย)</name>
+    <version>1.5.14</version>
+    <creationDate>2009-08-05</creationDate>
+    <author>Joomla! LaiThai Project</author>
+    <authorEmail>info@joomlacorner.com</authorEmail>
+    <authorUrl>www.joomlacorner.com</authorUrl>
+    <copyright>Copyright (C) 2005 - 2009 Open Source Matters. All rights reserved.</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <description>ภาษาไทยสำหรับด้านผู้ดูแลระบบ จูมล่าเวอร์ชั่น 1.5.14  โดยทีม จูมล่าลายไทย JoomlaCorner.com</description>
+    <metadata>
+    	<name>Thai (ภาษาไทย)</name>
+    	<tag>th-TH</tag>
+    	<rtl>0</rtl>
+    	<locale>th_TH.UTF-8,th_TH</locale>
+   		<winCodePage>utf-8</winCodePage>
+    	<backwardLang>thai</backwardLang>
+    </metadata>
+    <params />
+</metafile>

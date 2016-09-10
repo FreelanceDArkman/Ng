@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Circular";
+  src: url('font/85052491-Circular.eot');
+  src: url('font/85052491-Circular.eot?#iefix') format('embedded-opentype'), url('font/85052491-Circular.ttf') format('truetype'), url('font/85052491-Circular.woff') format('woff'), url('font/85052491-Circular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal; }
+.flex-direction-nav li {
+  line-height: 40px !important; }
+  .flex-direction-nav li a {
+    width: 40px !important;
+    height: 55px !important; }
+
+.flexslider .slides li span {
+  color: #447a92;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Circular !important;
+  margin-top: 5px;
+  text-align: center;
+  display: block;
+  width: 100%; }
+
+.hdr4-custom {
+  background: transparent url(../img/hdr4-ribbon1.png) no-repeat top center;
+  height: 150px;
+  text-align: center;
+  font-family: 'BitterBold';
+  font-size: 21px;
+  line-height: 44px;
+  margin: 5px 0;
+  color: #fff; }
+
+.full {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 10px !important;
+  font-family: Circular !important;
+  font-size: 26px !important;
+  font-weight: 500;
+  text-align: center;
+  line-height: 26px; }
+  .full p {
+    font-family: Circular !important;
+    font-size: 26px !important;
+    font-weight: 500;
+    text-align: center;
+    line-height: 26px; }
+
+ul.mainMenu li a {
+  font-family: Circular !important;
+  font-size: 30px; }
+  ul.mainMenu li a:hover {
+    color: #000066; }
+
+.hdr2, .hdr4, .hdr1 {
+  font-family: Circular !important;
+  font-size: 30px !important;
+  font-weight: bold;
+  line-height: 50px;
+  letter-spacing: 1.5px; }
+
+.box2 p {
+  font-size: 30px;
+  font-family: Circular !important;
+  color: #ffffff;
+  margin-top: 20px; }

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="search">
+	<name>Search - Content FullText</name>
+	<author>Jeremy.J</author>
+	<creationDate>February 2010</creationDate>
+	<copyright>Copyright (C) 2010 Jeremy Joly. All rights reserved.</copyright>
+	<authorEmail>joly.jeremy@gmail.com</authorEmail>
+	<authorUrl>www.jjsworld.fr</authorUrl>
+	<version>1.3</version>
+	<description>Allows fulltext searching of all articles</description>
+	<files>
+		<filename plugin="content-fulltext">content-fulltext.php</filename>
+	</files>
+	
+	<languages>
+		<language tag="fr-FR">language/fr-FR.plg_search_content-fulltext.ini</language>
+		<language tag="en-GB">language/en-GB.plg_search_content-fulltext.ini</language>
+	</languages>
+	
+		
+	<params>
+		
+		<param name="search_limit" type="text" size="5" default="50" label="Search Limit" description="Number of Search items to return"/>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="search_content" type="radio" default="1" label="Content Items" description="Search Content Items?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="search_uncategorised" type="radio" default="1" label="Uncategorised Content" description="Search Uncategorised Content?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="search_archived" type="radio" default="1" label="Archived Content" description="Search Archived Content?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="@spacer2" type="spacer" default="" label="" description="" />
+		<param name="first_use" type="hidden" default="1" />
+		<param name="sort_by_relevance" type="radio" default="1" label="Sort by relevance" description="Sort search results by relevance?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	
+		<param name="boolean_mode" type="radio" default="0" label="Enable boolean mode?" description="Enable boolean mode (slower, don't handle relevance but return more results)">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+					
+	</params>
+</install>

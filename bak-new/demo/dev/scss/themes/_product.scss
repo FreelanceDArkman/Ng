@@ -1,0 +1,33 @@
+.clients-page {
+margin-top: 10px;
+margin-bottom: 50px;
+padding-bottom: 30px;
+border-bottom: solid 1px #eee;
+	border-left: solid 2px #72c02c;
+	h3{
+		font-weight: bold;
+	}
+}
+.clients-page.bg{
+	background: #fafafa;
+
+
+}
+
+.clients-page img {
+padding: 4px;
+margin: 5px 0;
+border: solid 1px #eee;
+background: #fafafa;
+}
+.hover-effect {
+-webkit-transition: all 0.4s ease-in-out;
+-moz-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+transition: all 0.4s ease-in-out;
+}
+.img-responsive {
+display: block;
+max-width: 100%;
+height: auto;
+}

@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Circular";
+  src: url('font/85052491-Circular.eot');
+  src: url('font/85052491-Circular.eot?#iefix') format('embedded-opentype'), url('font/85052491-Circular.ttf') format('truetype'), url('font/85052491-Circular.woff') format('woff'), url('font/85052491-Circular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal; }
+.flex-direction-nav li {
+  line-height: 40px !important; }
+  .flex-direction-nav li a {
+    width: 40px !important;
+    height: 55px !important; }
+
+.flexslider .slides li span {
+  color: #447a92;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Circular !important;
+  margin-top: 5px;
+  text-align: center;
+  display: block;
+  width: 100%; }

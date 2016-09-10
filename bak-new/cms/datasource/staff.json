@@ -1,0 +1,30 @@
+[
+    {
+        "_id": "20150412005333",
+        "name": "darkman",
+        "username": "darkman69",
+        "password": "12345",
+        "role": "superadmin"
+    },
+    {
+        "_id": "20150412005645",
+        "name": "jaroon",
+        "username": "jaroon",
+        "password": "12345",
+        "role": "admin"
+    } ,
+    {
+        "_id": "20150412125437",
+        "name": "jaroon",
+        "username": "jaroon",
+        "password": "12345",
+        "role": "admin"
+    },
+    {
+        "_id": "20150412125508",
+        "name": "jaroon",
+        "username": "jaroon",
+        "password": "12345",
+        "role": "admin"
+    }
+]
